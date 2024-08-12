@@ -1,0 +1,26 @@
+* {
+  color: rgba(0, 0, 0, 0.8);
+}
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #cde7ff;
+  /* position: relative; */
+
+  width: 100%;
+  overflow: hidden;
+
+  width: 100%;
+  background-image: url("/src/assets/icons/Rectangle.png");
+  background-position: right bottom;
+  background-size: 35% 72%;
+  background-repeat: no-repeat;
+  clip-path: inset(0 0 10% 0); /* Обрезка: скрывает нижнюю половину */
+}
+.mainContainerHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 131px 100px;
+  width: 100%;
+}

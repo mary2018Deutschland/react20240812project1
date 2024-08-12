@@ -1,10 +1,10 @@
 import styles from "./styles.module.css";
-import Nav from "../..components/nav";
+import Header from "../../components/header";
 
 function Home() {
   return (
     <div className={styles.home_container}>
-      <Nav />
+      <Header />
     </div>
   );
 }

@@ -12,7 +12,7 @@ function Nav() {
         </div>
         <div>
           <a href="#">Регистрация</a>
-          <button style={styles.login_btn}>Вход</button>
+          <button className={styles.login_btn}>Вход</button>
         </div>
       </div>
     </div>
